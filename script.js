@@ -12,7 +12,7 @@ let input = document.getElementById("todo-input")
 
 
 function newTodo() {
-  alert('New TODO button clicked!')
+  alert('Çeçen Sakallar Aşkına!!!')
   alert(input.value)
   var li = document.createElement("li");
   li.appendChild(document.createTextNode(input.value))
