@@ -13,7 +13,6 @@ let input = document.getElementById("todo-input")
 
 function newTodo() {
   alert('Çeçen Sakallar Aşkına!!!')
-  alert(input.value)
   var li = document.createElement("li");
   li.appendChild(document.createTextNode(input.value))
   console.log = (li.textContent)
