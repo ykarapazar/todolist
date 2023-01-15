@@ -18,7 +18,8 @@ function newTodo() {
   li.appendChild(document.createTextNode(input.value))
   console.log = (li.textContent)
   list.appendChild(li);
-  var removebutton = document.createElement("button");
-  li.appendChild(document.createElement(removebutton));
-  //list.appendChild(inputtext)
+  li.addEventListener("click", function(){
+
+    li.style.textDecoration = "line-through";
+  })
 }
